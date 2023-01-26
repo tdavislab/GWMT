@@ -1,0 +1,152 @@
+#overallDiv {
+    /* width: 1440px;
+    height: 900px; */
+    width: 100%;
+    height: 100%; 
+    /* border: 1px solid grey;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;     */
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: minmax(450px, 1fr) minmax(930px, 3fr);
+    grid-template-rows: 30px minmax(620px, 18fr) minmax(220px, 6fr);
+    grid-row-gap: 5px ;
+    grid-column-gap: 5px;
+    overflow:auto;
+}
+
+#webTitle {
+    grid-row: 1 / 2;
+    grid-column: 1 /3;
+    position:relative;
+}
+
+#pureGTDiv {
+    grid-row: 2 /3;
+    grid-column: 2 /3;
+    /* width: 950px;
+    height: 630px; */
+    border: 1px solid grey;
+    /* padding: 0;
+    position: absolute;
+    left: 0;
+    right: 5;
+    top: 5px;
+    margin: 0 0 auto auto; */
+    position: relative;
+    overflow: auto;
+}
+
+.legendDiv {
+    width: 260px;
+    height: 50px;
+    border: 0px solid grey;
+    padding: 0px;
+    position: fixed;
+    /* left: 2%;
+    top: -91%; */
+    /* top: 100px;
+    left: 100px;
+    margin: 0 0 -200px 0;
+    z-index: 1; */
+}
+
+#threeDPathDiv {
+    grid-row: 2 /3;
+    grid-column: 1 /2;
+    /* width: 470px;
+    height: 630px; */
+    border: 1px solid grey;
+    /* padding: 0;
+    position: absolute;
+    left: 5px;
+    right: 0;
+    top: 5px;
+    margin: 0 auto auto 0; */
+}
+
+#timeAnalysisDivBorder{
+    /* width: 1430px;
+    height: 253px; */
+    /* padding: 0px; */
+    border: 1px solid grey;
+    /* margin: 0 auto auto 0;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 5;
+    top: 640px;
+    margin: 0 0 auto auto; */
+    /* position: absolute;  */
+    grid-row: 3/4;
+    grid-column: 1/3;
+    overflow:auto;
+    position: relative;
+}
+
+#timeAnalysisDiv {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+
+    /* width: 2400px;
+    height: 253px; */
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    /* border: 1px solid grey; */
+    margin: 0 auto auto 0;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin:auto;
+}
+
+
+.tSFDiv {
+    background-color: none;
+    display: flex;
+    justify-content: middle;
+    align-items: middle;
+    border-left: 0.5px solid lightgrey;
+    border-right: 0.5px solid lightgrey;
+    padding: 0px 0px 0px 0px;
+}
+
+/*
+reveal the single scalar field at a given timestamp
+*/
+#singleSFDiv {
+    width: 550px;
+    height: 283px;
+    border: 0px solid grey;
+    border-right: 1px solid grey;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto auto auto 0;
+}
+
+/*
+* reveal the tree structure
+*/
+#treeDiv {
+    width: 400px;
+    height: 303px;
+    border: 0px solid grey;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto 0 auto auto;
+}
+

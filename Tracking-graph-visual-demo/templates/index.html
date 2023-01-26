@@ -1,0 +1,50 @@
+<DOCTYPE html5>
+<html>
+    <head>
+        <title>Probabilistic Tracking Graph</title>
+        <link rel="stylesheet" type="text/css" href="static/css/layout.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/decorate.css">
+        <script src="/static/js/d3.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="/static/js/three.js"></script>
+        <script src="/static/js/THREE.MeshLine.js"></script>
+        <script src="/static/js/OrbitControls.js"></script>
+    </head>
+    <body>
+        <div id="overallDiv">
+            <div id="webTitle">
+                <p class="titleStyle">Probabilistic Tracking Graph</p>
+                <label for="dataS" style="left: 20px; position: absolute; line-height: 200%; color: #44546A; font-size: 16px;">Dataset:</label>
+                <select id="dataSelector" name="dataS" onchange="changeDataset(event)">
+                    <option value="HeatedFlow">HeatedFlow</option>
+                    <option value="VortexWithMin">VortexWithMin</option>
+                    <option value="IonizationFront">IonizationFront</option>
+                    <option value="UnsteadyCylinderFlow">UnsteadyCylinderFlow</option>
+                    <option value="Sample">Rotation</option>
+                </select>
+            </div>
+            <div id="pureGTDiv">
+                <div id="legendDiv"></div>
+            </div>
+            <div id="threeDPathDiv"></div>
+            <div id="timeAnalysisDivBorder">
+                <div id="timeAnalysisDiv">
+                    <div class="tSFDiv" id="SFLastTT"></div>
+                    <div class="tSFDiv" id="SFLastT"></div>
+                    <div class="tSFDiv" id="SFT"></div>
+                    <div class="tSFDiv" id="SFNextT"></div>
+                    <div class="tSFDiv" id="SFNextTT"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="/static/js/trajectory3D.js"></script>
+    <script src="/static/js/singleScalarField.js"></script>
+    <script src="/static/js/INT-ClkNode.js"></script>
+    <script src="/static/js/INT-Fisheye.js"></script>
+    <script src="/static/js/INT-THChange.js"></script>
+    <script src="/static/js/init.js"></script>
+    <script src="/static/js/trackingGraph.js"></script>
+    <script src="/static/js/visTrackingGraph.js"></script>
+    <script src="/static/js/visLegend.js"></script>
+</html>

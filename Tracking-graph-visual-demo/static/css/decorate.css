@@ -1,0 +1,55 @@
+/*the style for the timeline, text, line, ....*/
+
+.timeLineStyle{
+    stroke: #CCCCCC;
+    stroke-width: 1px;
+    stroke-dasharray: 1, 3;
+}
+
+.labelText{
+    text-anchor: middle;
+    cursor: pointer;
+    fill: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.titleStyle{
+    text-align: center;
+    display: block;
+    line-height: 170%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: #44546A;
+    background-color: #D6DCE5;
+    z-index: -1;
+}
+
+#dataSelector{
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 85px;
+    top: 5px;
+    /* color: #8497B0; */
+}
+
+.tooltip{	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;				
+    height: 15px;					
+    padding: 2px;				
+    font: 12px  Arial;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 4px;			
+    pointer-events: none;
+    color: #44546A;	
+}
