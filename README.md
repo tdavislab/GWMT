@@ -60,6 +60,8 @@ pip install numpy
 ```
 
 ## Video
+![video](./Tracking-graph-visual-demo/static/assets/VisualDemo.mov)
+
 
 
 
