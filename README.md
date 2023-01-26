@@ -60,8 +60,7 @@ pip install numpy
 ```
 
 ## Video
-![video](https://youtu.be/WjFQ1kP2mk4)
-
+![video](https://www.youtube.com/watch?v=WjFQ1kP2mk4)
 
 
 
