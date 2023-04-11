@@ -4,7 +4,7 @@ This repository includes two subprojects: a library `Tracking` and a visual anal
 
 ## Installation & Usage
 ```
-git clone https://github.com/XinyuanRyanYan/GWMT.git
+git clone https://github.com/tdavislab/GWMT.git
 cd GWMT/Tracking
 ```
 `Example.ipynb` describes the pipeline to use the pFGW library to apply feature tracking using merge trees from time-varying scalar fields.
@@ -41,7 +41,7 @@ The main features of our system:
 
 ## Installation
 ```
-git clone https://github.com/XinyuanRyanYan/GWMT.git
+git clone https://github.com/tdavislab/GWMT.git
 cd GWMT/Tracking-graph-visual-demo
 python app.py
 ```
