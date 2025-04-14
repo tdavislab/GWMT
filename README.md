@@ -62,6 +62,9 @@ pip install numpy
 ## Video
 [![Screenshot of video](./Tracking-graph-visual-demo/static/assets/videoInterface.png)](https://www.youtube.com/watch?v=WjFQ1kP2mk4)
 
-
+## Cite
+Flexible and Probabilistic Topology Tracking with Partial Optimal Transport.
+Mingzhe Li, Xinyuan Yan, Lin Yan, Tom Needham, Bei Wang.
+IEEE Transactions on Visualization and Computer Graphics, 2025.
 
 
