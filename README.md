@@ -60,7 +60,7 @@ pip install numpy
 ```
 
 ## Video
-[![Screenshot of video](./Tracking-graph-visual-demo/static/assets/videoInterface.png)](https://www.youtube.com/watch?v=WjFQ1kP2mk4)
+[![Screenshot of video](./Tracking-graph-visual-demo/static/assets/videoInterface.png)](https://youtu.be/SBrzIEDAuaw)
 
 ## Cite
 Flexible and Probabilistic Topology Tracking with Partial Optimal Transport.
