@@ -64,7 +64,9 @@ pip install numpy
 
 ## Cite
 Flexible and Probabilistic Topology Tracking with Partial Optimal Transport.
+
 Mingzhe Li, Xinyuan Yan, Lin Yan, Tom Needham, Bei Wang.
+
 IEEE Transactions on Visualization and Computer Graphics, 2025.
 
 
